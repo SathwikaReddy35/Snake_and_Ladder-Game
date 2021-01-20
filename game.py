@@ -6,7 +6,7 @@ import time
 root =Tk()
 canv=Canvas(root,width=470,height=470,bg="white")
 canv.grid(row=0,column=0)
-img=ImageTk.PhotoImage(Image.open("C:\\Users\\HP\\Desktop\\snakeandladder.jpg"))
+img=ImageTk.PhotoImage(Image.open("snakeandladder.jpg"))
 canv.create_image(0,0,anchor=NW,image=img)
 
 print("Here's the \"SNAKE & LADDER\" game.\nAll the best for your Game with computer!")
